@@ -124,7 +124,7 @@ const variableUpdate = (id,variables) => {
 }
 
 function XO(sp) {
-    console.log(sp.id)
+
     //Checking whether it already has data or not
    if(cannotChange(sp))
    return;
